@@ -18,7 +18,7 @@ spec:
         app: myapp
     spec:
       containers:
-      - image: artijain/packages:env.BUILD_NUMBER
+      - image: artijain/packages:latest
         name: myapp
         resources: {}
 status: {}
